@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html {
+  background-image: url(/Users/saulwilliams/Documents/reactwebpage/src/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+
+.right {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 5%;
+}
+
+
+.try {
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.left {
+  width: 45%;
+}
+
+
+span {
+  color: lightgray;
+}
+
+
+form {
+  background-color: white;
+  display: grid;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+
+.trial {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  color: white;
+}
+
+
+input {
+  margin-bottom: 10px;
+  height: 20px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none; 
+  font-size: 16px;
+}
+
+
+input:hover {
+  border: 1px solid black;
+}
+
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+
+form p {
+  color: darkgray;
+  font-size: 8px;
+  margin: auto;
+  margin-top: 5px;
+}
